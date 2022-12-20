@@ -145,6 +145,6 @@ MESSAGE_TAGS = {
 # SMTP Configuration for Email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '' # Enter your sending email
-EMAIL_HOST_PASSWORD = '' # Enter your email password
+EMAIL_HOST_USER = 'arefin.rafifiver15@gmail.com' # Enter your sending email
+EMAIL_HOST_PASSWORD = 'uayofqybythrlagt' # Enter your email password
 EMAIL_USE_TLS = True

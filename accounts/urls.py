@@ -14,4 +14,9 @@ urlpatterns = [
     path('resetpassword_validate/<uidb64>/<token>/', views.ResetpasswordValidate, name='resetpassword_validate'),
     path('resetPassword/', views.ResetPassword, name='resetPassword'),
     
+    # Dashboard
+    path('my_orders/', views.MyOrders, name='my_orders'),
+    path('edit_profile/', views.EditProfile, name='edit_profile'),
+    path('change_password/', views.ChangePassword, name='change_password'),
+    path('order_detail/<int:order_id>/', views.OrderDetail, name='order_detail'),
 ]
